@@ -115,6 +115,8 @@
   </style>
 </head>
 <body>
+<h1>TESTING</h1>
+
   <a href="http://openshift.com" class="brand">
     <img class="brand-image"
       alt="OpenShift logo"
