@@ -1,0 +1,51 @@
+/*
+Theme Name:     Twenty Eleven Child
+Description:    My Child theme for the Twenty Eleven theme 
+Author:         Colden Cullen
+Author URI:     http://ColdenCullen.com/
+Template:       twentyeleven
+Version:        0.2.0
+*/
+
+/* Import parent*/
+@import url( "../twentyeleven/style.css" );
+
+@import url( http://fonts.googleapis.com/css?family=Dosis );
+
+/* Hide link bar */
+#access {
+	display: none;
+}
+
+/* Remove excess space
+#site-description {
+	margin-bottom: 0;
+}
+
+/* Links */
+#site-title span a, .entry-title a , .post a {
+	color: #999;
+}
+
+/* Links visited */
+#site-title span a:visited, .entry-title a:visited, .post a:visited  {
+	color: #999;
+}
+
+/* Links hovers */
+#site-title span a:hover, .entry-title a:hover, .post a:hover  {
+	color: #888;
+	text-decoration: none;
+}
+
+/* Post content and header */
+.post {
+	font-family: 'Dosis', sans-serif;
+	font-size: 14pt;
+}
+
+/* Page box */
+.one-column #page {
+	max-width: 900px !important;
+	width: 900px !important;
+}
