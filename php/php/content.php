@@ -209,24 +209,7 @@
 	<div class="panel tall">
 		<div class="content">
 			
-			<?php
-			// Include file with code to access blog database
-			include( "/home/coldencullen/coldencullen.com/blog/wp-blog-header.php" );
-
-			// Query posts, loop through them
-			foreach( get_posts( array ( 'cat' => -3, 'posts_per_page' => -1 ) ) as $post )
-			{
-				?>
-
-				<!-- Displays post -->
-				<div class="post">
-					<h3><?php echo $post->post_title ?></h3>
-					<p><?php echo $post->post_content ?></p>
-				</div>
-
-				<?php
-			}
-			?>
+			<p>Check it out (temporarily) at <a href="http://blog.coldencullen.com">blog.coldencullen.com</a>.</p>
 
 		</div>
 	</div>
