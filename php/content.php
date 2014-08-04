@@ -209,7 +209,7 @@
 	<div class="panel tall">
 		<div class="content">
 			
-			<p>Check it out (temporarily) at <a href="http://ghost.coldencullen.com">ghost.coldencullen.com</a>.</p>
+			<p>Check it out (temporarily) at <a href="http://blog.coldencullen.com">blog.coldencullen.com</a>.</p>
 
 		</div>
 	</div>
