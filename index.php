@@ -63,8 +63,8 @@
 		<div class="main page" id="home">
 			<div class="panel short">
 				<div class="content">
-					<h1>I like to build games.</h1>
-					<h2>And stuff.</h2>
+					<h1>I like to make games.</h1>
+					<h2>And do systems-y stuff.</h2>
 				</div>
 			</div>
 		</div>
