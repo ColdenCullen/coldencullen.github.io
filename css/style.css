@@ -483,22 +483,6 @@ html, body, #document {
 	list-style-type: disc;
 }
 
-/*Code*/
-#code {
-	left: 500%;
-	background: #AAA;
-}
-#code .panel {
-	box-shadow: none;
-}
-#code .title {
-	margin: 10px 0;
-}
-#code .content pre.prettyprint {
-	margin: 0;
-	padding: 0 10px;
-}
-
 /*Not Found*/
 #notfound {
 	left: 600%;

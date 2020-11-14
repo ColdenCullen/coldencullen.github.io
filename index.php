@@ -102,7 +102,6 @@
 		</div>
 
 		<?php
-		// If no JS, load all of page at once
 		include( "/home/coldencullen/coldencullen.com/php/content.php" );
 		?>
 	</div>
@@ -112,7 +111,7 @@
 			<div class="navlink" id="contactlink"><a href="/#contactform">Contact Me</a></div>
 		</div>
 		<div class="right">
-			<div class="navlink" id="codelink"><a href="/#code">&copy; Colden Cullen 2012-13</a></div>
+			<div>&copy; Colden Cullen 2012-20</div>
 		</div>
 	</div>
 

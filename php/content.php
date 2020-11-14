@@ -215,40 +215,6 @@
 	</div>
 </div>
 
-<!-- Code -->
-<div class="main page" id="code">
-	<div class="panel tall">
-		<div class="content">
-			<!-- Loads code from other files, and display -->
-			<div id="tabs">
-				<ul>
-					<li><a href="#html">Index</a></li>
-					<li><a href="#content">Content</a></li>
-					<li><a href="#css">CSS</a></li>
-					<li><a href="#js">JS</a></li>
-					<li><a href="#mail">Send Mail</a></li>
-				</ul>
-			
-				<div class="codesnip" id="html">
-					<pre class="prettyprint linenums"><code class="language-html"><?php echo htmlentities( file_get_contents( "/home/coldencullen/coldencullen.com/index.php" ) ); ?></code></pre>
-				</div>
-				<div class="codesnip" id="content">
-					<pre class="prettyprint linenums"><code class="language-html"><?php echo htmlentities( file_get_contents( "/home/coldencullen/coldencullen.com/php/content.php" ) ); ?></code></pre>
-				</div>
-				<div class="codesnip" id="css">
-					<pre class="prettyprint linenums"><code class="language-css"><?php echo htmlentities( file_get_contents( "/home/coldencullen/coldencullen.com/css/style.css" ) ); ?></code></pre>
-				</div>
-				<div class="codesnip" id="js">
-					<pre class="prettyprint linenums"><code class="language-js"><?php echo htmlentities( file_get_contents( "/home/coldencullen/coldencullen.com/js/scripts.js" ) ); ?></code></pre>
-				</div>
-				<div class="codesnip" id="mail">
-					<pre class="prettyprint linenums"><code><?php echo htmlentities( file_get_contents( "/home/coldencullen/coldencullen.com/php/sendmail.php" ) ); ?></code></pre>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
 <!-- 404, does not display if page loaded successfully -->
 <div class="main page" id="notfound">
 	<div class="panel short">
