@@ -10,7 +10,7 @@
 	<link rel="icon" type="image/png" href="/media/Icon.png">
 
 	<!-- Normalize -->
-	<link rel="stylesheet" type="text/css" href="http://necolas.github.com/normalize.css/2.1.0/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="//necolas.github.io/normalize.css/8.0.1/normalize.css" />
 
 	<!-- My CSS -->
 	<link rel="stylesheet" type="text/css" href="/css/style.css" />
@@ -54,40 +54,6 @@
 		</div>
 	</div>
 
-	<!-- Email form -->
-	<div id="contactbackground"></div>
-	<div id="contactform" class="panel narrow shortMed">
-		<div class="content">
-			<form id="emailform" method="POST">
-
-				<!-- Fields for getting client info -->
-				<input type="hidden" id="ipinput" name="ip" value="<?php echo getenv('REMOTE_ADDR') ?>" />
-				<input type="hidden" id="httprefinput" name="httpref" value="<?php echo getenv('HTTP_REFERER') ?>" />
-				<input type="hidden" id="httpagentinput" name="httpagent" value="<?php echo getenv('HTTP_USER_AGENT') ?>" />
-
-				<div class="label text"><label for="nameinput">Your Name:</label></div>
-				<input type="text" required="required" id="nameinput" name="username" size="35" />
-				<br />
-
-				<div class="label text"><label for="emailinput">Your Email:</label></div>
-				<input type="email" required="required" id="emailinput" name="usermail" size="35" />
-				<br />
-
-				<div class="label text"><label for="subjectinput">Subject:</label></div>
-				<input type="text" required="required" id="subjectinput" name="subject" size="35" />
-				<br />
-
-				<div class="label"><label for="messageinput">Message</label></div>
-				<br />
-				<textarea id="messageinput" name="message" required="required" rows="4"></textarea>
-				<br /><br />
-
-				<input type="button" value="Cancel" onclick="toggleContact()" />
-				<input type="submit" value="Send Email" />
-			</form>
-		</div>
-	</div>
-
 	<!-- Content body -->
 	<div class="document container">
 
@@ -108,7 +74,9 @@
 
 	<div class="footer">
 		<div class="left">
-			<div class="navlink" id="contactlink"><a href="/#contactform">Contact Me</a></div>
+			<div class="navlink" id="contactlink">
+				<a href="mailto:colden@coldencullen.com" target="_blank" >Contact Me</a>
+			</div>
 		</div>
 		<div class="right">
 			<div>&copy; Colden Cullen 2012-20</div>

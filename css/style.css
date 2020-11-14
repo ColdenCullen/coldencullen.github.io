@@ -149,52 +149,6 @@ html, body, #document {
 }
 /*End Content Panel*/
 
-/*Email Form*/
-#contactbackground {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	z-index: 1;
-	background: #666;
-	opacity: 0;
-	top: 100%;
-
-	transition: opacity 1s;
-}
-#contactform {
-	position: fixed;
-	padding: 20px;
-	left: 50%;
-	top: 150%;
-	font-family: "Russo One", sans-serif;
-	z-index: 2;
-	overflow: hidden;
-
-	transition: top 1s;
-}
-#contactbackground.active {
-	opacity: .9;
-	top: 0;
-}
-#contactform.active {
-	top: 50%;
-}
-#contactform .label {
-	display: inline-block;
-	width: 100px;
-	padding: 5px 0;
-}
-#contactform .label.text {
-	text-align: right;
-}
-#contactform textarea {
-	resize: none;
-	width: 90%;
-	max-height: 400px;
-}
-/*End Email Form*/
-
 /*Loading Spinner*/
 #spinner {
     display: inline;
@@ -248,16 +202,6 @@ html, body, #document {
 	right: 10px;
 }
 /*End Loading Spinner*/
-
-/*Complete Text*/
-#successtext {
-	font-size: 48pt;
-	margin: 83px;
-}
-#successtext p {
-	margin: 0;
-}
-/*End Complete Text*/
 
 /*Individual Page Formatting*/
 /*Home*/

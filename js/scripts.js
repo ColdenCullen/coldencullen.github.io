@@ -23,60 +23,6 @@ function checkScroll()
 	$( currentLink ).addClass( 'selected' );
 };
 
-function toggleContact()
-{
-	$( '#contactbackground, #contactform' ).toggleClass( 'active' );
-	$( '#contactlink' ).toggleClass( 'selected' );
-}
-
-// Setup form submission
-function setupContactSubmit()
-{
-	$( '#emailform' ).submit( function( event )
-	{
-		// Stop actual submission
-		event.preventDefault();
-
-		jQuery.ajax(
-			{
-				url: "/php/sendmail.php",
-				type: 'POST',
-				data: $( '#emailform' ).serialize(),
-				success: function( data, textStatus, jqXHR )
-				{
-					setTimeout( function()
-					{
-						$( '#contactform .content #spinner' ).hide( "puff", null, 1000, function()
-						{
-							$( '#contactform .content' ).html( successText );
-
-							$( '#contactform .content #successtext' ).show( "puff", null, 200, function()
-							{
-								setTimeout( function()
-								{
-									toggleContact();
-
-									setTimeout( function()
-									{
-										$( '#contactform .content #successtext' ).hide( "puff", null, 200, function()
-										{
-											$( '#contactform .content' ).html( formData );
-											setupContactSubmit();
-										} );
-									}, 1000 );
-								}, 1000 );
-							} );
-						} );
-					}, 2900 );
-				}
-			} );
-
-		formData = $( '#contactform .content' ).html();
-
-		$( '#contactform .content' ).html( loadingSpinner );
-	} );
-}
-
 function onload()
 {
 	prettyPrint();
