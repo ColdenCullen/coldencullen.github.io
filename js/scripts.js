@@ -11,33 +11,6 @@ var successText =
 		'<p>Success!</p>' +
 	'</div>';
 
-jQuery( function()
-{
-	// If JS, delete noscript, add loading tag
-	$( 'noscript' ).remove();
-	$( '#home .content' ).prepend( $( loadingSpinner ) );
-
-	// Remove nav bar, replace when loaded
-	$( '.navbar, .footer' ).hide();
-
-	jQuery.get('/php/content.php', function(data, textStatus, xhr)
-	{
-		if( textStatus === "success" )
-		{
-			// Append data to page, remove loading
-			$( '.document.container' ).append( $( data ) );
-			$( '.document.container #spinner' ).remove();
-
-			// Run initalization code
-			onload();
-
-			// Show navbar and footer
-			$( '.navbar' ).show( 'slide', { direction: 'up' }, 250 );
-			$( '.footer' ).show( 'slide', { direction: 'down' }, 250 );
-		}
-	});
-} );
-
 function checkScroll()
 {
 	// Update navbar

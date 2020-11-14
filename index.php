@@ -101,12 +101,10 @@
 			</div>
 		</div>
 
-		<noscript>
-			<?php
-			// If no JS, load all of page at once
-			include( "/home/coldencullen/coldencullen.com/php/content.php" );
-			?>
-		</noscript>
+		<?php
+		// If no JS, load all of page at once
+		include( "/home/coldencullen/coldencullen.com/php/content.php" );
+		?>
 	</div>
 
 	<div class="footer">
