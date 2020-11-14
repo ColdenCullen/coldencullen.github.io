@@ -67,7 +67,7 @@
 		</div>
 
 		<?php
-		include( "/home/coldencullen/coldencullen.com/php/content.php" );
+		include( "php/content.php" );
 		?>
 	</div>
 

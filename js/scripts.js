@@ -23,8 +23,7 @@ function checkScroll()
 	$( currentLink ).addClass( 'selected' );
 };
 
-function onload()
-{
+jQuery( function() {
 	prettyPrint();
 
 	$( '#tabs' ).tabs();
@@ -94,4 +93,4 @@ function onload()
 
 		checkScroll();
 	} );
-}
+});
