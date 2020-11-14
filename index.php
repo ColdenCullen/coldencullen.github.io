@@ -28,12 +28,7 @@
 	<script type="text/javascript" src="/js/prefixfree.min.js"></script>
 
 	<!-- My Javascript Files -->
-	<script type="text/javascript" src="/js/scripts.js"></script>
-
-	<!-- Google Code Prettify -->
-	<link rel="stylesheet" type="text/css" href="/google-code-prettify/prettify.css" />
-	<script type="text/javascript" src="/google-code-prettify/prettify.js"></script>
-	
+	<script type="text/javascript" src="/js/scripts.js"></script>	
 </head>
 <body>
 
