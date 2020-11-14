@@ -393,40 +393,6 @@ html, body, #document {
 	left: 400%;
 }
 
-/*Blog*/
-#blog {
-	left: 400%;
-	background: #FF938A;/*#9270CC*/
-}
-#blog .post {
-	border: 2px solid black;
-	/*border-radius: 10px;*/
-	margin: 15px;
-	padding: 15px;
-	box-shadow: 3px 3px 1px 1px black;
-	position: relative;
-	text-align: center;
-}
-#blog .post h3 {
-	margin: 0;
-	color: inherit;
-}
-#blog .post h3 a {
-	color: inherit;
-}
-#blog .post p {
-	font-size: 18px;
-	color: inherit;
-}
-#blog .post p a {
-	color: #333;
-	font-size: inherit;
-	font-weight: 600;
-}
-#blog .post li {
-	list-style-type: disc;
-}
-
 /*Not Found*/
 #notfound {
 	left: 600%;

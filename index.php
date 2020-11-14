@@ -49,7 +49,6 @@
 				<li><div class="navlink" id="aboutlink"><a href="/#about">About Me</a></div></li>
 				<li><div class="navlink" id="resumelink"><a href="/#resume">Resume</a></div></li>
 				<li><div class="navlink" id="portfoliolink"><a href="/#portfolio">Projects</a></div></li>
-				<li><div class="navlink" id="bloglink"><a href="/#blog">Blog</a></div></li>
 			</ul>
 		</div>
 	</div>

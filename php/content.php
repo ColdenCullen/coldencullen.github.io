@@ -204,17 +204,6 @@
 	</div>
 </div>
 
-<!-- Blog -->
-<div class="main page" id="blog">
-	<div class="panel tall">
-		<div class="content">
-			
-			<p>Check it out (temporarily) at <a href="http://blog.coldencullen.com">blog.coldencullen.com</a>.</p>
-
-		</div>
-	</div>
-</div>
-
 <!-- 404, does not display if page loaded successfully -->
 <div class="main page" id="notfound">
 	<div class="panel short">
