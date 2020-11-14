@@ -44,13 +44,6 @@
 				<li><div class="navlink" id="homelink"><a href="/#home">Colden Cullen</a></div></li>
 			</ul>
 		</div>
-		<div class="right">
-			<ul>
-				<li><div class="navlink" id="aboutlink"><a href="/#about">About Me</a></div></li>
-				<li><div class="navlink" id="resumelink"><a href="/#resume">Resume</a></div></li>
-				<li><div class="navlink" id="portfoliolink"><a href="/#portfolio">Projects</a></div></li>
-			</ul>
-		</div>
 	</div>
 
 	<!-- Content body -->
@@ -73,7 +66,7 @@
 
 	<div class="footer">
 		<div class="left">
-			<div class="navlink" id="contactlink">
+			<div class="navlink outbound" id="contactlink">
 				<a href="mailto:colden@coldencullen.com" target="_blank" >Contact Me</a>
 			</div>
 		</div>

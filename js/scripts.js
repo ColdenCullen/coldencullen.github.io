@@ -29,7 +29,7 @@ jQuery( function() {
 	$( '#tabs' ).tabs();
 
 	// Setup navbar
-	$( '.navlink a' ).click( function( event )
+	$( '.navlink:not(.outbound) a' ).click( function( event )
 	{
 		// Stop from scrolling to page, then back, then animating
 		event.preventDefault();
@@ -37,19 +37,12 @@ jQuery( function() {
 		// Element to scroll to
 		var elementToScrollTo = $( this ).attr( 'href' ).substring( 1 );
 
-		if( elementToScrollTo != "#contactform" )
-		{
-			var indexToScrollTo = $( '.main.page' + elementToScrollTo ).index();
+		var indexToScrollTo = $( '.main.page' + elementToScrollTo ).index();
 
-			$( '.main.page' ).each( function( index, element )
-			{
-				$( element ).animate( { left: ( ( index - indexToScrollTo ) * 100 ) + '%' }, 500, checkScroll );
-			} );
-		}
-		else
+		$( '.main.page' ).each( function( index, element )
 		{
-			toggleContact();
-		}
+			$( element ).animate( { left: ( ( index - indexToScrollTo ) * 100 ) + '%' }, 500, checkScroll );
+		} );
 	} );
 
 	// Setup portfolio links
