@@ -68,17 +68,12 @@ jQuery( function() {
 		$( '#portfolio .panel' ).animate( { scrollLeft: portfolioScroll }, time );
 	} );
 
-	setupContactSubmit();
-
 	// Setup 404 removal
 	if( window.location.hash != '#notfound' )
 	{
 		$( '#notfound' ).remove();
 		notFoundRemoved = true;
 	}
-
-	// Setup form background click close
-	$( '#contactbackground' ).click( toggleContact );
 
 	checkScroll();
 

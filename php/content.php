@@ -29,12 +29,7 @@
 
 			<!-- Link to Google Docs Viewer of my resume -->
 			<div id="resumecontent">
-				<iframe src="http://docs.google.com/viewer?url=http%3A%2F%2Fcoldencullen.com%2Fmedia%2FColdenCullen-Resume.pdf&amp;embedded=true"></iframe>
-			</div>
-
-			<!-- Download Button -->
-			<div id="download">
-				<a href="/media/ColdenCullen-Resume.pdf">Download</a>
+				<iframe src="https://docs.google.com/document/d/e/2PACX-1vRH_lkrr9_6uolxqkecfNCmVLeICru-IhzHOsctrOuZqnT6vvIhjZpsonraui2-yGxm8LmTSyj05vvY/pub?embedded=true"></iframe>
 			</div>
 		</div>
 	</div>
