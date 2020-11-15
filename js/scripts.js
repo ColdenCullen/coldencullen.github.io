@@ -1,7 +1,7 @@
 function checkScroll() {
     // Update navbar
     var currentLink = '#' + $('.main.page').filter(function (_, element) {
-        return element.css('left') == '0px';
+        return $(element).css('left') == '0px';
     }).attr('id') + 'link';
 
     $('.navlink:not(' + currentLink + ')').removeClass('selected');
@@ -22,7 +22,7 @@ jQuery(function () {
         var indexToScrollTo = $('.main.page' + elementToScrollTo).index();
 
         $('.main.page').each(function (index, element) {
-            element.animate({ left: ((index - indexToScrollTo) * 100) + '%' }, 500, checkScroll);
+            $(element).animate({ left: ((index - indexToScrollTo) * 100) + '%' }, 500, checkScroll);
         });
     });
 
