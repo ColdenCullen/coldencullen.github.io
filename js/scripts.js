@@ -24,8 +24,6 @@ function checkScroll()
 };
 
 jQuery( function() {
-	prettyPrint();
-
 	$( '#tabs' ).tabs();
 
 	// Setup navbar
