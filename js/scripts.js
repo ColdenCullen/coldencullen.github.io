@@ -9,8 +9,6 @@ function checkScroll() {
 };
 
 jQuery(function () {
-    $('#tabs').tabs();
-
     // Setup navbar
     $('.navlink:not(.outbound) a').click(function (event) {
         // Stop from scrolling to page, then back, then animating
